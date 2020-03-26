@@ -1,0 +1,17 @@
+{
+  "name": "webpack-import-error-issue-reproduction",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack-cli --mode production",
+    "start": "webpack-dev-server"
+  },
+  "private": true,
+  "dependencies": {
+    "rxjs": "^6.5.4"
+  },
+  "devDependencies": {
+    "webpack": "^5.0.0-beta.14",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.2"
+  }
+}
